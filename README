@@ -1,0 +1,9 @@
+This is an(-other) implementation of the AStar algorithm.
+
+I decided to do my implementation after reading Keith Peters excellent ActionsScript 3.0 Animation book.
+
+I had need of an AStar (or any pathfinding algorithm actually) implementation which didn't use a 2d Array. 
+
+I've taken a first stab at getting something generic which will work with any style of Graph. Also trying to code to Interfaces, rather then implementations, although i've also included a basic implementation. I'm not sure about the signature of the IHeuristic interface. This will likely change as i get more experience using this code in different situations. 
+
+Eventually i will implement something to make using a more traditional 2d grid-style map easier. 

@@ -1,0 +1,1 @@
+﻿package pathfinding{	import pathfinding.INode;	import pathfinding.IHeuristic;		public class Heuristic implements IHeuristic	{				public function estimateCost(fromNode:INode, toNode:INode):Number		{				return 1;		}			}}
